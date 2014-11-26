@@ -92,6 +92,25 @@ h1{
     padding: 0;
 }
 
+.image { 
+   position: relative; 
+   width: 100%; 
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;
+   padding: 10px; 
+}
+
 .header {
     background-color: #ccc;
     overflow: hidden
@@ -132,11 +151,11 @@ h1{
 }
 
 .sectionlight {
-    background-color: #ff9933 ;
+    background-color: black ;
 }
 
 .sectionmedium {
-    background-color: #0074D9 ;
+    background-color: black ;
 }
 
 .intro {
