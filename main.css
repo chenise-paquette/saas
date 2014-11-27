@@ -76,8 +76,17 @@ a:focus {
 }
     
 img {
-  display: block;
+  display: inline-block;
   width: 100%;
+}
+
+.billboard {
+    padding-top: 6em;
+    background-image: url(studio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
 }
 
 .intro {
@@ -89,7 +98,7 @@ img {
 h1{
     text-align: center;
     margin:0;
-    padding: 0;
+    padding:0;
 }
 
 h2 {
@@ -111,7 +120,6 @@ h3 {
    width: 500px;
    height: 50px;
 }
-
 
 .header {
     background-color: #ccc;
@@ -187,6 +195,7 @@ button {
     margin: 1 auto;
     width: 100px;
     height: 50px;
+    float: left;
 }
 
 button:hover {
