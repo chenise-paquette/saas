@@ -48,7 +48,7 @@ body {
 
 a:hover,
 a:active{
-   
+  outline:inherit; 
 }
 
 a:focus {
@@ -73,11 +73,6 @@ a:focus {
     
 .skip-links a:focus {
     top: 0;
-}
-    
-img {
-  display: inline-block;
-  width: 100%;
 }
 
 .billboard {
