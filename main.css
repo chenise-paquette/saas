@@ -183,19 +183,17 @@ input + label {
 button {
     font-size: 1em;
     font-family: lobster;
-    padding:inherit;
+    padding:.5em 1em;
     border: 1px solid #000;
     background-color: black;
     color: white;
     cursor: pointer;
-    position: absolute;
+    position:absolute;
     top:250px;
     left: 0;
     width: 100%;
-    margin: 1 auto;
     width: 100px;
     height: 50px;
-    float: left;
 }
 
 button:hover {
