@@ -62,7 +62,8 @@ h5, .mega {
 
 h6, .kilo {
   font-size: 1.0000rem;
-  line-height: 1.2;
+  line-height: 1.2; 
+
 }
 
 small, .milli {

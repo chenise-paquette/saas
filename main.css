@@ -99,7 +99,7 @@ h1{
 
 h2 {
    position: absolute;
-   top: 170px;
+   top: 240px;
    left: 0;
    width: 100%;
    margin: 0 auto;
@@ -109,7 +109,7 @@ h2 {
 
 h3 {
    position: absolute;
-   top: 240px;
+   top: 310px;
    left: 0;
    margin: 0 auto;
    width: 500px;
@@ -149,10 +149,6 @@ h3 {
     color: white ;
 }
 
-.footer {
-    background-color: #ccc;
-}
-
 .footer ul a::after {
     content: "·";
 }
@@ -190,7 +186,7 @@ button {
     color: white;
     cursor: pointer;
     position: absolute;
-    top:280px;
+    top:350px;
     left: 0;
     width: 100%;
     margin: 1 auto;
