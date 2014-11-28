@@ -44,6 +44,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 a:hover,
@@ -126,10 +127,10 @@ h3 {
     margin: 0;
 }
 
-p {
+.about {
     max-width: 35em;
+    margin: 0 auto;
     text-align: center;
-    margin: 100%
 }
 
 .nav {
